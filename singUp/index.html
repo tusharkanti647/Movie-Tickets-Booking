@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+
+    <!-- connect the css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- connect the fontawesome css for the icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
+    <!-- connect the own css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- connect the own Js file-->
+    <script defer type="module" src="./code.js"></script>
+</head>
+<body>
+    
+  <!-- navbar -->
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/5930/5930234.png" alt="movie Booking web logo" width="50" >
+          </a>
+        </div>
+    </nav>
+
+    <!-- main section of the page -->
+    <section id="main">
+
+      <div class="container bg-dark text-white bg-opacity-75" >
+        <h1 class="mt-3">Sign up</h1>
+
+        <form class="my-3 p-3">
+
+          <!-- take email input -->
+          <div class="mb-3">
+            <label for="email_input" class="form-label">Email</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input class="form-control" id="email_input"/>
+              <div class="invalid-feedback email-invalid-feedback"></div>
+            </div>
+          </div>
+
+          <!-- take Password input -->
+          <div class="mb-3">
+            <label for="password_input" class="from-label">Password</label>
+            <input class="form-control" id="password_input"/>
+            <div class="invalid-feedback password-invalid-feedback"></div>
+          </div>
+
+          <!-- take Password input -->
+          <div class="mb-3">
+            <label for="confirm_password_input" class="from-label">Confirm Password</label>
+            <input class="form-control" id="confirm_password_input"/>
+            <div class="invalid-feedback confirm-password-invalid-feedback"></div>
+          </div>
+
+          <!-- Sign Up button -->
+          <button type="button" class="btn btn-dark" id="signup_button">
+            Sign up
+          </button>
+
+          <!-- from footer element -->
+          <div id="from_footer">
+            <div><input id="SingUp_checkbox" type="checkbox"><label for="SingUp_checkbox">Remember me</label></div>
+            
+            <p>Need help?</p>
+          </div>
+
+        </form>
+
+        <!-- redirect to sing in page -->
+        <p class="mt-3 text-center">
+          Already have an account? <a href="/">Login here</a>
+        </p>
+
+       </div>
+
+
+    </section>
+
+
+   <!-- footer section https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+<footer class="text-center text-lg-start bg-dark text-muted" data-bs-theme="dark">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright: tushar Kanti das
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    <!-- connect the css js script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body  {
+    background-image:  url("https://netflixjunkie.com/wp-content/uploads/2021/11/Netflix-Background-1-1140x600.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #from_footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  } */
+
